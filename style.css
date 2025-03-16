@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Stone100: hsl(30, 54%, 90%);
+    --Stone150: hsl(30, 18%, 87%);
+    --Stone600: hsl(30, 10%, 34%);
+    --Stone900: hsl(24, 5%, 18%);
+    --Brown800: hsl(14, 45%, 36%);
+    --Rose800: hsl(332, 51%, 32%);
+    --Rose50: hsl(330, 100%, 98%);
+}
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--Stone150);
+}
+main{
+    width:800px;
+    padding:40px;
+    background-color: var(--White);
+    border-radius: 15px;
+    margin:100px auto;
+}
+main img{
+    width:720px;
+    border-radius: 15px;
+}
+h1{
+    font-family: 'Young Serif', serif;
+}
+.Introduction h1{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top:20px;
+}
+.Introduction p{
+    margin-top: 10px;
+}
+.Preparation{
+    background-color: var(--Rose50);
+    border-radius: 15px;
+    padding:30px;
+    margin-top: 30px;
+}
+.Preparation ul{
+    margin-left: 18px;
+    margin-top: 18px;
+    list-style-position: outside;
+}
+.Preparation h2{
+    color:var(--Rose800)
+}
+.Preparation ul li{
+    margin-bottom: 10px;
+    padding-left: 18px;
+}
+span{
+    font-weight: 700;
+}
+.Brown{
+    font-weight: 400;
+    font-size: 33px;
+    color:var(--Brown800);
+}
+.Ingredients{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-top: 25px;
+}
+.Ingredients ul{
+    margin-left: 20px;
+    margin-top: 15px;
+    list-style-position: outside;
+}
+.Ingredients ul li{
+    margin-bottom: 10px;
+    padding-left: 17px;
+}
+.Instructions{
+    padding:20px 0;
+    border-bottom: 1px solid #ddd;
+}
+.Instructions ol{
+    margin-left: 17px;
+    margin-top:15px;
+    list-style-position: outside;
+}
+.Instructions ol li{
+    margin-bottom: 10px;
+    padding-left: 17px;
+    line-height: 27px;
+}
+.Instructions ol li::marker{
+    color:var(--Brown800);
+    font-weight:600;
+}
+section.Nutrition{
+    padding-top: 20px;
+}
+.Nutrition .Elements{
+    margin-top:13px;
+}
+.Nutrition h3{
+    font-weight: 400;
+    margin-top:15px;
+}
+.Element{
+    border-bottom: 1px solid #ddd;
+    padding:12px 0;
+    display: flex;
+}
+
+.Element h4{
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    width:50px;
+}
+.Element h5{
+    margin-left:300px;
+    color:var(--Brown800);
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+}
+.noBorder{
+    border:0;
+}
+
+@media (max-width:850px){
+    main{
+        width:90%;
+        padding:5%;
+    }
+    main img{
+        width:100%;
+    }
+    .Element h5{
+        margin-left: 250px;
+    }
+    .Introduction h1{
+        font-size: 35px;
+        font-weight: 400;
+        margin-top:15px;
+    }
+}
+@media (max-width:570px){
+    .Element h5{
+        margin-left: 170px;
+    }
+}
+@media (max-width:420px){
+    .Element h5{
+        margin-left:100px;
+    }
+}
