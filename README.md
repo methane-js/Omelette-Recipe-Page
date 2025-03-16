@@ -15,7 +15,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-recipe-page-using-html-and-css-_hEJaK8pRG)
 - Live Site URL: [Vercel](https://omelette-recipe-page-orpin.vercel.app)
 
 ## My process
